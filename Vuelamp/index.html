@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Tutorial Youtube Channel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/menu.png" class="menu-img">
+            <img src="images/logo.png" class="logo" id="light">
+            <ul>
+                <li><a href="">Lastest</a></li>
+                <li><a href="">Modern</a></li>
+                <li><a href="">Content</a></li>
+                <li><a href="">Affordable</a></li>
+
+            </ul>
+            <button type="button" onclick="toggleBtn()" id= "btn"><span></span></button>
+        </nav>
+        <div class="lamp-container">
+            <img src="images/lamp.png" class="lamp">
+            <img src="images/light.png" class="light">
+
+        </div>
+        <div class="text-container">
+            <h1>
+                Cerita <br>Tentang Lampu</h1>
+            </h1>
+            <p>
+                Lampu adalah sebuah Peranti yang menghasilkan Cahaya.Kata "lampu" dapat juga berarti Bola Lampu. Lampu
+                pertama kali ditemukan oleh Sir Joseph William Swan.Lihat Pencahayaan untuk pembahasan lebih lanjut.
+                Lampu digunakan oleh semua perngkat yang membutuhkan cahaya
+            </p>
+            <a href="">Check all Collections</a>
+            <div class="control">
+                <p>04</p>
+                <div class="line"><span></span></div>
+                <p>05</p>
+            </div>
+        
+    </div>
+
+
+
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+        function toggleBtn(){
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+        }
+    </script>
+
+
+</body>
+
+</html>
